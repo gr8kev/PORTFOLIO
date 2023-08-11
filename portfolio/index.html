@@ -15,14 +15,16 @@
   <div id="header">
     <div id="container">
       <nav>
-        <img src="images/logo.png" class="logo" />
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
+        <img src="images/Gr8logo.png" class="logo" />
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
         </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
       </nav>
       <div class="header-text">
         <p>Web Developer</p>
@@ -35,15 +37,17 @@
     <div id="container">
       <div class="row">
         <div class="about-c0l-1">
-          <img src="images/user.png" />
+          <img src="images/kev2.png" />
         </div>
         <div class="about-c0l-2">
           <h1 class="sub-title">About Me</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
-            libero adipisci sequi minus cupiditate nemo ex nesciunt iure quae
-            error eum, tempore autem? Autem repudiandae eaque dolorum
-            assumenda similique quibusdam?
+            Innovative, creative, emotional
+            intelligence ,<br> ambitious and resilient.
+            confident,
+            <br>
+            I love achieving goals and
+            working with a team.
           </p>
 
           <div class="tab-titles">
@@ -67,21 +71,24 @@
           <div class="tab-contents" id="experience">
             <ul>
               <li>
-                <span>2023-current</span><br />Developer
-                <br />Freelancing<br />Levitate.ng
+                <span>2023-current</span><br />Developer<br />Levitate.ng
               </li>
               <!--<li><span>web Development</span><br />Web App Development</li>-->
               <li>
-                <span>2022</span><br />Freelancing<br /><span>Jobs</span><br />Divinelearninghub.com<br />Houseofjabez.ng<br />Vkaydiagnostics.com<br />emeralddigitalspace.com
+                <span>2022</span><br />Freelancing<br /><span>Jobs</span>
+                <br/>Houseofjabez.ng<br/>emeralddigitalspace.com
               </li>
             </ul>
           </div>
           <div class="tab-contents" id="education">
             <ul>
-              <li><span>UI/UX</span><br />Designing Web/App Interfaces</li>
-              <li><span>web Development</span><br />Web App Development</li>
+              <li><span>University Of Lagos</span><br />Physics (education)</li>
+              <li><span>Yaba College of Technology</span><br />Electrical/Electronics</li>
               <li>
-                <span>App Development</span><br />Building Android /ios Apps
+                <span>Stutern</span><br />Software Development
+              </li>
+              <li>
+                <span>OpenWeaver</span><br />Html/Css
               </li>
             </ul>
           </div>
@@ -96,34 +103,27 @@
       <div class="services-list">
         <div>
           <i class="fas fa-code"></i>
-          <h2>ui/uxDesign</h2>
+          <h2>ui/ux Design</h2>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid
-            doloremque obcaecati repellendus, nulla tempore molestias
-            quibusdam delectus? Iste, aliquid! Earum quisquam fuga ad nisi
-            ullam labore explicabo voluptatem iusto nemo?
+            A UI (User Interface) deals with the application's graphical layout, which includes buttons, screen layout, animations, transitions, micro-interactions, and so on. In short, UI is all about how things look.
           </p>
-          <a href="#">Learn More</a>
+          <a href="https://careerfoundry.com/en/blog/ux-design/the-difference-between-ux-and-ui-design-a-laymans-guide/">Learn More</a>
         </div>
         <div>
           <i class="fas fa-crop-alt"></i>
           <h2>Web Design</h2>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid
-            doloremque obcaecati repellendus, nulla tempore molestias
-            quibusdam delectus? Iste, aliquid! Earum quisquam fuga ad nisi
-            ullam labore explicabo voluptatem iusto nemo?
+            With 93% of business decisions starting with a search engine search that means if you don't have a website, you are only selling to 7% of your market. That is right, you are reducing the potential size of your business by 93%. 
+            Get a wbsite today and increase your customer base
           </p>
-          <a href="#">Learn More</a>
+          <a href="https://profitworks.ca/blog/297-why-having-a-website-is-important">Learn More</a>
         </div>
         <div>
           <i class="fab fa-app-store"></i>
           <h2>App Design</h2>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid
-            doloremque obcaecati repellendus, nulla tempore molestias
-            quibusdam delectus? Iste, aliquid! Earum quisquam fuga ad nisi
-            ullam labore explicabo voluptatem iusto nemo?
+            There are many different benefits to having a mobile application for your business. Creating a mobile app that fits your vision could help you build brand loyalty, improve relationships with clients and stay relevant, up-to-date and on the cutting edge of new technology.
+            Creat an app for your business .
           </p>
           <a href="#">Learn More</a>
         </div>
@@ -169,29 +169,32 @@
       <div class="row">
         <div class="contact-left">
           <h1 class="sub-title">Contact Me</h1>
-          <p>ebukakels@gmail.com</p>
-          <p>09019121785</p>
+          <p><i class="fa-solid fa-paper-plane"></i>ebukakels@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i>09019121785</p>
           <div class="social-icons">
-            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-whatsapp"></i></i></a>
+            <a href="https://www.facebook.com/kelvin.obi1?mibextid=b06tZ0"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.linkedin.com/in/kelvin-obi-6a3b17252"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/kelvin.obi1?mibextid=b06tZ0"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.link/ef8qwi"><i class="fa-brands fa-whatsapp"></i></i></a>
           </div>
+          <a href="images/OBI KELVIN (1).pdf" download class="btn btn2">Download Cv</a>
         </div>
         <div class="contact-right">
-          <form>
+          <form name="submit-to-google-sheet">
             <input type="text" name="Name" placeholder="Your Name" required>
             <input type="Email" name="Email" placeholder="Your Email" required>
             <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-            <button type="submit">Submit</button>
+            <button type="submit" class="btn btn2">Submit</button>
           </form>
+          <span id="msg"></span>
         </div>
       </div>
     </div>
+    <div class="copyright">
+      <p>Copyright @2023 DivinelearningHub <i class="fa-solid fa-heart"></i>kelvin</p>
+    </div>
   </div>
 
-
-  !
   <script>
     var tablinks = document.getElementsByClassName("tab-links");
     var tabcontents = document.getElementsByClassName("tab-contents");
@@ -205,7 +208,36 @@
       }
       event.currentTarget.classList.add("active-link");
       document.getElementById(tabname).classList.add("active-tab");
+    } 
+  </script>
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+      sidemenu.style.right = "0";
     }
+    function closemenu() {
+      sidemenu.style.right = "-200px";
+    }
+  </script>
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbysSpvAYjSenQ-DxkeWQ3r8JF3nsaJ06ATHQNhPMDHl2G-dv4I9-L7t1kZPl72k2NELWg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+          msg.innerHTML = "Message sent successfully"
+          setTimeout(function () {
+            msg.innerHTML = ""
+          }, 5000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
   </script>
 </body>
 
