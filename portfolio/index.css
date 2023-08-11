@@ -2,10 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 body {
   background: #080808;
@@ -84,6 +84,10 @@ nav ul li a:hover::after {
 }
 .about-c0l-2 {
   flex-basis: 60%;
+}
+.about-c0l-2 p {
+  font-size: 20px;
+  margin-top: 10px;
 }
 .tab-titles {
   display: flex;
@@ -288,102 +292,106 @@ form textarea {
   color: #fff;
   border-radius: 6px;
 }
-form .btn2{
-    padding: 14px 60px;
-    font-size: 18px;
-    margin-top: 20px;
-    cursor: pointer;
+form .btn2 {
+  padding: 14px 60px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
 }
-.copyright{
-    width: 100%;
-    text-align: center;
-    padding: 25px 0;
-    background: #262626;
-    font-weight: 300;
-    margin-top: 20px;
-
+.copyright {
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+  background: #262626;
+  font-weight: 300;
+  margin-top: 20px;
 }
-.copyright i{
-    color: #ff004f;
+.top{
+  position: fixed;
+  bottom: 7.5rem; right:2rem;
+  z-index: 100;
+  color: #ff004f;
+  font-size: 40px;
+}
+.copyright i {
+  color: #ff004f;
 }
 /* -------------css for small screens---------------- */
- nav .fa-solid{
-    display: none;
- }
-@media only screen and (max-width: 600px){
-    #header{
-        background-image: url(images/phone.png);
-    }
-    .header-text{
-        margin-top: 140%;
-        font-size: 14px;
-        color:dimgrey;
-    }
-    .header-text hi{
-        font-size: 30px;
-    }
-    .header-text p{
-      color:dimgray;
-      font-size: 20px;
-      
-    }
-    *{
-        margin: 0;
-        padding: 0;
-    }
-    nav .fa-solid{
-        display: block;
-         font-size: 25px;
-    }
-     nav ul{
-        background: #ff004f;
-        position: fixed;
-        top: 0;
-        right: -200px;
-        width: 200px;
-        height: 100vh;
-        padding-top: 50px;
-        z-index: 2;
-        transition: right 0.9s;
-     }
-     nav ul li{
-        display: block;
-        margin: 25px;
-     }
+nav .fa-solid {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  #header {
+    background-image: url(images/phone.png);
+  }
+  .header-text {
+    margin-top: 140%;
+    font-size: 14px;
+    color: dimgrey;
+  }
+  .header-text hi {
+    font-size: 30px;
+  }
+  .header-text p {
+    color: dimgray;
+    font-size: 20px;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  nav .fa-solid {
+    display: block;
+    font-size: 25px;
+  }
+  nav ul {
+    background: #ff004f;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 2;
+    transition: right 0.9s;
+  }
+  nav ul li {
+    display: block;
+    margin: 25px;
+  }
 
-     nav ul .fa-solid{
-        position: absolute;
-        top: 25px;
-        left: 25px;
-        cursor: pointer;
-
-     }
-     .sub-title{
-        font-size: 40px;
-     }
-      .about-c0l-1, .about-c0l-2{
-        flex-basis: 100%;
-      } 
-      .about-c0l-1{
-        margin-bottom: 30px;
-      }
-      .about-c0l-2{
-        font-size: 14px;
-      }
-      .tab-links{
-        font-size: 16px;
-        margin-right: 10 x; 
-       }
-       .contact-left, .contact-right{
-        flex-basis: 100%;
-       }
-       .copyright{
-        font-size: 14px;
-       }  
-
-
-} 
-#msg{
+  nav ul .fa-solid {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+  }
+  .sub-title {
+    font-size: 40px;
+  }
+  .about-c0l-1,
+  .about-c0l-2 {
+    flex-basis: 100%;
+  }
+  .about-c0l-1 {
+    margin-bottom: 30px;
+  }
+  .about-c0l-2 {
+    font-size: 14px;
+  }
+  .tab-links {
+    font-size: 16px;
+    margin-right: 10 x;
+  }
+  .contact-left,
+  .contact-right {
+    flex-basis: 100%;
+  }
+  .copyright {
+    font-size: 14px;
+  }
+}
+#msg {
   color: #61b752;
   margin-top: -40px;
   display: block;
