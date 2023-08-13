@@ -307,7 +307,7 @@ form .btn2 {
   margin-top: 20px;
 }
 .top{
-  position: fixed;
+  position:fixed;
   bottom: 7.5rem; right:2rem;
   z-index: 100;
   color: #ff004f;
@@ -335,11 +335,8 @@ nav .fa-solid {
   .header-text p {
     color: dimgray;
     font-size: 20px;
-  }
-  * {
-    margin: 0;
-    padding: 0;
-  }
+    margin-top: 8px;
+}
   nav .fa-solid {
     display: block;
     font-size: 25px;
@@ -390,13 +387,39 @@ nav .fa-solid {
   .copyright {
     font-size: 14px;
   }
-  .top{
-    font-size: 20px;
-  }
-
+  .about-c0l-2 p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+  .top {
+    font-size: 31px;
+    position:fixed;
+    top: 370rem;
+}
 }
 #msg {
   color: #61b752;
   margin-top: -40px;
   display: block;
+}
+
+@media only screen and (max-width: 400px){
+  .top {
+    font-size: 31px;
+    position: fixed;
+    top: 350rem;
+}
+.header-text h1 {
+  font-size: 42px;
+  margin-top: 8px;
+}
+.about-c0l-2 p {
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+.header-text p {
+  color: dimgray;
+  font-size: 20px;
+}
 }
